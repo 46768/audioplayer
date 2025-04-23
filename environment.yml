@@ -1,0 +1,4 @@
+name: audio-player
+dependencies:
+  - conda-forge::python
+  - conda-forge::playsound=1.3.0
