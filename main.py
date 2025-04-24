@@ -1,4 +1,5 @@
-import playsound
+import playsound3
 import sys
 
-playsound.playsound(sys.argv[1])
+print(playsound3.AVAILABLE_BACKENDS)
+playsound3.playsound(sys.argv[1])
